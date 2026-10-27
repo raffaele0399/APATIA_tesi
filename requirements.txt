@@ -1,0 +1,8 @@
+# Dipendenze Python del server e degli script di analisi
+# (testato con Python 3.11; vedi README per le versioni usate in sperimentazione)
+fastapi
+uvicorn
+pydantic>=2
+numpy
+scikit-learn
+matplotlib

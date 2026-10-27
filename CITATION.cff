@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Se usi questo software o i dati, citalo come segue."
+title: "APATIA (BigEye): adattività continua nei videogiochi tramite anomaly detection su dati di input"
+type: software
+authors:
+  - family-names: Nacci
+    given-names: Raffaele
+version: 1.0.0
+date-released: 2026-10-14
+license: MIT
+abstract: >-
+  Metroidvania adattivo in Godot 4 che stima lo stato comportamentale del
+  giocatore dai soli dati di input del controller, tramite anomaly detection
+  non supervisionata (server Python/FastAPI), e modifica il gameplay in tempo
+  reale. Tesi triennale in Informatica, Università degli Studi di Bari Aldo
+  Moro (relatore: Prof. Pierpaolo Basile).
+keywords:
+  - adaptive games
+  - anomaly detection
+  - Isolation Forest
+  - Godot
+  - player modeling
+# repository-code: "https://github.com/<utente>/<repository>"   # da compilare dopo la pubblicazione
