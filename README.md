@@ -158,7 +158,7 @@ Il codice è rilasciato con licenza MIT (vedi `LICENSE`). Il testo della tesi e 
 
 ## English summary
 
-**APATIA (BigEye)** is an adaptive Metroidvania built with Godot 4 that estimates a player's *behavioral state* from controller input alone — no biometric sensors. Every 5 seconds the game sends a window of input events to a Python/FastAPI server, which computes 22 features, compares them against a per-player (and per-game-state) baseline with an unsupervised Isolation Forest, and returns an anomaly score. A leaky integrator accumulates the score; when it crosses a threshold the game switches to a "psychedelic world" (new scene, inverted left/right controls, reduced gravity).
+**APATIA** is an adaptive Metroidvania built with Godot 4 that estimates a player's *behavioral state* from controller input alone — no biometric sensors. Every 5 seconds the game sends a window of input events to a Python/FastAPI server, which computes 22 features, compares them against a per-player (and per-game-state) baseline with an unsupervised Isolation Forest, and returns an anomaly score. A leaky integrator accumulates the score; when it crosses a threshold the game switches to a "psychedelic world" (new scene, inverted left/right controls, reduced gravity).
 
 On 10 participants, using a calm/frenetic protocol, the system reaches 81.5% TPR and 13.7% FPR with a mean detection latency of 6.7 s. The thesis also compares four anomaly-detection models and evaluates the player experience with the Game Experience Questionnaire. "Behavioral stress" means deviation from the player's own baseline, not clinical stress.
 
