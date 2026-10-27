@@ -1,4 +1,4 @@
-# APATIA (BigEye) — Adattività continua nei videogiochi
+# APATIA — Adattività continua nei videogiochi
 
 > **Stima dello stato del giocatore mediante tecniche di anomaly detection su dati di input**
 > Tesi triennale in Informatica — Università degli Studi di Bari Aldo Moro
@@ -148,7 +148,7 @@ Gli sviluppi futuri sono nel Capitolo 6 della tesi.
 
 Vedi `CITATION.cff`. Esempio:
 
-> Nacci, R. (2026). *APATIA (BigEye): adattività continua nei videogiochi tramite anomaly detection su dati di input*. Tesi triennale, Università degli Studi di Bari Aldo Moro.
+> Nacci, R. (2026). *APATIA: adattività continua nei videogiochi tramite anomaly detection su dati di input*. Tesi triennale, Università degli Studi di Bari Aldo Moro.
 
 ## Licenza
 
